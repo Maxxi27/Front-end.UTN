@@ -1,0 +1,116 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(197, 204, 196, 1) 0%,
+    rgba(196, 206, 171, 1) 50%,
+    rgba(197, 204, 196, 1) 100%
+  );
+}
+
+h1 {
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
+  background-color: #c4cea9;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+nav a {
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container section {
+  width: 30%;
+  height: 150px;
+  padding: 0 0 25px 0;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.container section.a {
+  background-color: #f1f0ef;
+}
+.container section.b {
+  background-color: #f1f0ef;
+}
+.container section.c {
+  background-color: #f1f0ef;
+}
+
+.container-2 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+
+.container-2 section {
+  width: 30%;
+  height: 150px;
+  padding: 0 0 25px 0;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.container-2 section.a {
+  background-color: #f1f0ef;
+}
+.container-2 section.b {
+  background-color: #f1f0ef;
+}
+
+footer {
+  border-top: 2px solid black;
+  height: 100px;
+  background-color: #c4cea9;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  height: 70%;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
