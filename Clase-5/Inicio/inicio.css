@@ -4,15 +4,16 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-  background-color: rgb(42, 42, 42);
 }
 .container {
-  background-color: beige;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 400px;
-  height: 100px;
+  background: rgba(255, 255, 255, 0.3); /* Fondo blanco translúcido */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(8px); /* Efecto difuminado */
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 32px;
+  width: 350px;
+  margin: 40px auto;
 }
 .logo {
   display: flex;
@@ -23,6 +24,12 @@
   height: 60px;
   margin-right: 10px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 nav a {
   padding: 0px 30px 0px 30px;
   font-weight: 600;
@@ -35,11 +42,16 @@ nav a:hover {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #9b9b9a;
+  background: rgba(255, 255, 255, 0.616);
   align-items: center;
   width: 100%;
   height: auto;
 }
 body {
   margin: 0%;
+  background-image: url(/Clase-5/image/food.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
